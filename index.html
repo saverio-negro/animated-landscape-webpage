@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="./style.css">
+    <title>Navbar Effect</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a data-page="home" href="#home">Home</a></li>
+                <li><a data-page="about" href="#about">About</a></li>
+                <li><a data-page="services" href="#services">Services</a></li>
+                <li><a data-page="contact" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <a class="targeter" id="home"></a>
+        <section data-index="0" class="home">
+            <img src="./images/sunny-california.jpg" alt="Palm and sea">
+            <div class="modal home">
+                <p>A beautiful palmy and sunny beach.</p>
+            </div>
+            <div class="modal-2 home"></div>
+            <div class="modal-3">
+                <div class="card home">
+                    <p>Sunny beaches beckon with their golden sands, kissed by the radiant warmth of the sun. <br><br>The gentle lull of waves whispers serenity while the azure expanse stretches into infinity, inviting endless adventures and tranquil respites. </p>
+                </div>
+            </div>
+        </section>
+        
+        <a class="targeter" id="about"></a>
+        <section data-index="1"" class="about">
+            <img src="./images/flora-lake.jpg" alt="Vegetation and lake">
+            <div class="modal about">
+               <p>A lake surrounded by a beautiful vegetation.</p>
+            </div>
+            <div class="modal-2 about"></div>
+            <div class="modal-3">
+                <div class="card about">
+                    <p>Lakeside vistas abound with lush vegetation, painting a vibrant tapestry of greenery that thrives along the water's edge, creating a haven for diverse flora and fauna.</p>
+                </div>
+            </div>
+        </section>
+        
+        <a class="targeter" id="services"></a>
+        <section data-index="2" class="services">
+            <img src="./images/rocks-mountains.jpg" alt="Rocks and mountains">
+            <div class="modal services">
+                <p>Rocks, mountains and a beautiful sunset.</p>
+            </div>
+            <div class="modal-2 services"></div>
+            <div class="modal-3">
+                <div class="card services">
+                    <p>As the sun sets behind majestic mountains, their rocky peaks silhouette against the vibrant hues of twilight, casting a dramatic and awe-inspiring panorama.</p>
+                </div>
+            </div>
+        </section>
+        
+        <a class="targeter" id="contact"></a>
+        <section data-index="3" class="contact">
+            <img src="./images/dune-sand-desert.jpg" alt="Dune, sand in the desert">
+            <div class="modal contact">
+                <p>Dunes and sand in the desert.</p>
+            </div>
+            <div class="modal-2 contact"></div>
+            <div class="modal-3">
+                <div class="card contact">
+                    <p>Desert landscapes unfold in vast stretches of rolling dunes, where winds sculpt and shift the grains of sand into undulating waves of golden beauty. <br><br>Eeach grain a testament to time's patient artistry in shaping this barren yet mesmerizing terrain.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<!-- Scripts -->
+<script src="./app.js"></script>
+</html>
