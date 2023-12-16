@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 /* Text Animation */
@@ -40,6 +39,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
 }
 
 header {
