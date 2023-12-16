@@ -43,6 +43,7 @@ const intersectionHandler = (entries, observer) => {
             // Handle card animation
             modal3Card.style.transform = 'translate(0%)'
             modal3Card.style.opacity = 0.8
+            modal3Card.style.backgroundColor = colors[sectionIndex]
 
             anchorEl.style.backgroundColor = colors[sectionIndex]
             modalEl.style.opacity = 1
