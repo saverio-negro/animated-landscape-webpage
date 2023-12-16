@@ -45,9 +45,10 @@ const intersectionHandler = (entries, observer) => {
             modal3Card.style.opacity = 0.8
             modal3Card.style.backgroundColor = colors[sectionIndex]
 
+
             anchorEl.style.backgroundColor = colors[sectionIndex]
             modalEl.style.opacity = 1
-            modalEl.style.transform = "translate(0%)"
+            modalEl.style.transform = 'translate(0%)'
         } else {
             // Handle text animation
             paragraph.style.animation = ''
@@ -55,12 +56,12 @@ const intersectionHandler = (entries, observer) => {
             modal2El.style.animation = ''
 
             // Handle card animation
-            modal3Card.style.transform = 'translate(100%)'
+            modal3Card.style.transform = 'translate(-100%)'
             modal3Card.style.opacity = 0
             
             anchorEl.style.backgroundColor = null
             modalEl.style.opacity = 0;
-            modalEl.style.transform = "translate(50%)"
+            modalEl.style.transform = "translate(-50%)"
         }
     })
 }
